@@ -13,7 +13,7 @@ https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2
 
 ## Demo
 
-https://clearlynow.github.io/homecare/
+https://clearlynow.github.io/homecare/index.html
 
 ## Browser Compatibility
 
