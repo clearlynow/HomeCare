@@ -24,7 +24,11 @@ html,
 
 /* full screen div */
 .box {
-  background:red;
-  height:100vh;
+background:red;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
 }
 
