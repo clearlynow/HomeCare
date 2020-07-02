@@ -21,6 +21,8 @@ html,
   display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
   background: #eee;  
   overflow: auto;
+  margin: auto;
+  text-align: center;
 }
 
 .container2 .col {
