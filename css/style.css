@@ -10,7 +10,9 @@ html,
   margin: 0;
   padding: 0;
   width: 100%;
-  flex-wrap: nowrap;
+  flex-flow: column;
+  }
+  
 }
 
 /* Center the content in the browser window */
