@@ -7,7 +7,7 @@ html,
   .flex-container {
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     flex-direction:column;
-    background-color: DodgerBlue;
+    background-color: #D53BA3;
 }
   .flex-container > div {
     margin: auto;
