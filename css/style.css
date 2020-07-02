@@ -8,6 +8,7 @@ html,
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     flex-direction:column;
     backgorund-color: DodgerBlue;
+    width: 100%;
 }
   .flex-container > div {
     background-color: #f1f1f1;
