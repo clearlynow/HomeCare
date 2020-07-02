@@ -21,6 +21,11 @@ html,
   text-align: center;
 }
 
+.container .col {
+  flex: 1;
+  padding: 1rem;
+}
+
 .title {
   font-size: 3rem;
 }
