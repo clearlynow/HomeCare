@@ -15,13 +15,27 @@ html,
   
 }
 
+.container2 {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  background: #eee;  
+  overflow: auto;
+}
+
+.container2 .col {
+  flex: 1;
+  padding: 1rem;
+}
+
+
 /* Center the content in the browser window */
 .container {
   margin: auto;
   text-align: center;
 }
 
-.container .col {
+.fullscreen .col {
   flex: 1;
   padding: 1rem;
 }
