@@ -2,24 +2,24 @@ body {
   font-family: sans-serif;
 }
 
-/* Make content area fill the entire browser window */
 html,
 
-.container {
-  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-  background: #eee;  
-  overflow: auto;
-  margin: auto;
-  text-align: center;
+  .flex-container {
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-direction:column;
+    backgorund-color: DodgerBlue;
 }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: auto;
+    text-align: center;
+  }
 
-.container .col {
-  flex: 1;
-  padding: 1rem;
-}
+  .flex-container .col {
+    flex: 1;
+    padding: 1rem;
+  }
 
-.title {
-  font-size: 3rem;
-}
+  .title {
+    font-size: 3rem;
+  }
