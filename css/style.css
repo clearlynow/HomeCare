@@ -10,6 +10,7 @@ html,
   margin: 0;
   padding: 0;
   width: 100%;
+  flex-wrap: nowrap;
 }
 
 /* Center the content in the browser window */
@@ -22,15 +23,6 @@ html,
   font-size: 3rem;
 }
 
-/* full screen div */
-.box {
-background:red;
-  position:absolute;
-  top:0px;
-  right:0px;
-  bottom:0px;
-  left:0px;
-}
 
 .flex-container {
   display: flex;
